@@ -1,0 +1,13 @@
+{
+  "name": "study-tracker-tooling",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pinned Cloudflare Pages CLI for the planned Python study tracker",
+  "engines": { "node": ">=24.19.0 <25" },
+  "scripts": {
+    "wrangler": "wrangler"
+  },
+  "devDependencies": {
+    "wrangler": "4.147.0"
+  }
+}
