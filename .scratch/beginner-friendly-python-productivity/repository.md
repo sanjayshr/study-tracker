@@ -1,6 +1,6 @@
 # Repository and contribution guide
 
-The source repository is intended to be public at [sanjayshr/study-tracker](https://github.com/sanjayshr/study-tracker). Our immediate deliverable is the preparation guide. Application development follows once the Pi setup and remaining design decisions are clear.
+The source repository is public at [sanjayshr/study-tracker](https://github.com/sanjayshr/study-tracker). Current deliverables are the preparation guide and [project/architecture documents](project.md). Application development follows once the Pi setup and remaining design decisions are clear.
 
 ## What belongs here
 

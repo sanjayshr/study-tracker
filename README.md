@@ -2,7 +2,15 @@
 
 A desk study tracker for a first-year Electronics and Communication student, built around a Raspberry Pi 3 Model B+ and a Google AIY Voice Kit V1.
 
-**Current stage: OS setup and project preparation.** The tracker application and dashboard are planned; they are not implemented yet.
+**Current stage: project design, architecture, and OS preparation.** The tracker application and dashboard are planned; they are not implemented yet.
+
+## Project design and diagrams
+
+Read the [project document](.scratch/beginner-friendly-python-productivity/project.md) for the complete first-version idea and requirements. The [architecture document](.scratch/beginner-friendly-python-productivity/architecture.md) contains Mermaid diagrams for the system, Python modules, button state machine, gestures, event flow, audio, and dashboard.
+
+The [data and recovery design](.scratch/beginner-friendly-python-productivity/data-and-recovery.md) diagrams SQLite records, timing, checkpoints, midnight splitting, and interrupted-session recovery. The [publication architecture](.scratch/beginner-friendly-python-productivity/publication-architecture.md) diagrams snapshots, offline retries, deployment serialisation, and the visibility gate.
+
+GitHub renders the Mermaid blocks directly. The designs identify proposed defaults and unresolved choices; they do not claim implementation or hardware verification.
 
 ## Start here
 

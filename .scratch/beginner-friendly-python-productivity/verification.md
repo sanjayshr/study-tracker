@@ -43,3 +43,11 @@ Cloudflare's [Wrangler requirements](https://developers.cloudflare.com/workers/w
 - Cloudflare account setup, token scope, dashboard preview, and chosen access policy.
 
 State-machine tests, gesture semantics, SQLite recovery, dashboard layouts, retry behaviour, and systemd startup will be tested during application implementation. They have not been implemented or tested yet.
+
+## Project and architecture documentation checks
+
+Added the [project document](project.md), [architecture](architecture.md), [data and recovery design](data-and-recovery.md), and [publication architecture](publication-architecture.md). These describe intended behaviour and explicitly label proposals and unresolved choices.
+
+All 19 Mermaid blocks rendered successfully to SVG with Mermaid CLI 12.0.0 and the available headless Chrome. Rendering dependencies and output stayed in a temporary directory outside the repository; no application or runtime dependency was added for diagrams. This validates diagram syntax with that renderer, not the design's implementation or physical behaviour.
+
+All ten Markdown documents passed local-link and linked-heading checks, balanced-code-fence checks, and the existing 19 shell-example syntax checks. The diagrams are kept as editable Mermaid source for GitHub rendering.
